@@ -1,1 +1,3 @@
-# simple_cv
+# Github Page
+
+https://samuelfooks.github.io
