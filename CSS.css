@@ -18,7 +18,7 @@ hr {
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 30px;
 }
 i {
     padding: 0px 1px 0px 1px;
@@ -35,7 +35,7 @@ i {
 #Navigation {
     position: absolute;
     background: #292929;
-    width: 100px;
+    width: 230px;
     right: 25px;
     z-index: 5;
     visibility: visible;
@@ -63,6 +63,7 @@ i {
 
 .nav-list {
     margin: 0;
+   
 }
 
 .nav-box {
@@ -77,6 +78,7 @@ i {
     background: #292929;
     visibility: hidden;
     z-index: 5;
+ 
 }
 
 #nav-list-mobile {
@@ -101,6 +103,7 @@ i {
     color: #aeaeae; 
     height: auto;
     width: auto;
+    font-size:30px;
     }
 
 .nav-link:focus { 
@@ -253,13 +256,16 @@ i {
     padding: 50px 0px 50px 0px;
     width: inherit;
     margin: 0;
+    font-size:24px;
 }
 
 #profile-img {
     border-style: solid;
     border-color: black;
 }
-
+#right-profile{
+    width: 450px;
+}
 #Experience {
     background: #dedede;
     padding: 50px 0px 50px 0px;
@@ -269,14 +275,14 @@ i {
 }
 
 .table { border: none; }
-.table > tbody > tr > th { border: none;
-                        font-size:24px; }
+.table > tbody > tr > th { border: none; font-size:32px; width:60px;}
 .table > tbody > th > tr { font-size:20px;
 }
 table > tbody > tr > th > h5 > ul > li {
+    margin-left:5px;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size:20px;
+    font-size:28px;
 }
 
 .exp-dates {
@@ -284,6 +290,7 @@ table > tbody > tr > th > h5 > ul > li {
     display:table-cell;
     vertical-align:middle;
     float:none;
+    
     border-style: solid;
     border: 0px 0px 10px 0px;
     border-color: black;
