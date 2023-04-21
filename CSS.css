@@ -44,7 +44,7 @@ i {
     position: absolute;
     background: #292929;
     width: 230px;
-    right: 25px;
+    left: 25px;
     z-index: 5;
     visibility: visible;
     border-radius: 5px;
@@ -131,7 +131,7 @@ i {
 
 #nav-indicator {
     position: absolute;
-    float: right;
+    float: left;
     width: 100px;
     height: 100px;
     top: 90vh;
