@@ -32,6 +32,14 @@ i {
     font-size: 50px;
 }
 
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
 #Navigation {
     position: absolute;
     background: #292929;
